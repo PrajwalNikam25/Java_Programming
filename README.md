@@ -1,2 +1,2 @@
-# Java_Programming/home/prajwal/Downloads/javaimg.png
+# Java_Programming
 java code
