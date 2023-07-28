@@ -4,7 +4,7 @@ import java.util.*;
 class Demo {
 
 	int fun(int x){
-	
+
 		return 10/x;
 	}
 }
