@@ -12,7 +12,7 @@ class MyClass implements Comparable{
 	}
 	public int compareTo(Object t1){
 	
-		return (t1.t)compareTo(this.t);
+		return (this.t).compareTo(t1.toString());
 	}
 	public String toString(){
 	

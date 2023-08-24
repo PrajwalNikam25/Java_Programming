@@ -25,9 +25,9 @@ class Client{
 	
 		TreeSet t = new TreeSet();
 
-		t.add("Prajwal");
-		t.add("Abhishek");
-		t.add("Tanmay");
+		t.add(new MyClass("Prajwal"));
+		t.add(new MyClass("Abhishek"));
+		t.add(new MyClass("Tanmay"));
 
 		System.out.println(t);
 	}

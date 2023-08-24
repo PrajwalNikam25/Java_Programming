@@ -25,10 +25,10 @@ class Client{
 	
 		TreeSet t = new TreeSet();
 
-		t.add("A");
-		t.add("D");
-		t.add("B");
-		t.add("C");
+		t.add(new MyClass("A"));
+		t.add(new MyClass("D"));
+		t.add(new MyClass("B"));
+		t.add(new MyClass("C"));
 
 		System.out.println(t);
 	}
