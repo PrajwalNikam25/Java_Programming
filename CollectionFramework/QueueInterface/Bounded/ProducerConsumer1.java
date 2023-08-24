@@ -6,7 +6,7 @@ class Producer implements Runnable{
 
 	BlockingQueue bq;
 
-	Producer(BlockingQueue bg){
+	Producer(BlockingQueue bq){
 	
 		this.bq = bq;
 	}
@@ -17,6 +17,7 @@ class Producer implements Runnable{
 			try{
 			
 				bq.put(i);
+				Thread.sleep(1000);
 			}
 			catch(InterruptedException ie){
 			
@@ -42,6 +43,7 @@ class Consumer implements Runnable{
 			try{
 			
 				bq.take();
+				Thread.sleep(3000);
 			}
 			catch(InterruptedException it){
 			
