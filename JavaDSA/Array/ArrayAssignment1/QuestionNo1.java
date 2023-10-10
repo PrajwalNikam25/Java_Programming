@@ -6,7 +6,7 @@ class Client{
 	
 		int arr[] = new int[]{-2,1,-4,5,3,9,1,-44,99,9,1,-44,99,9,1,-44,99,9,1,-44,99,9,1,-44,99,9,1,-44,99,9,1,-44,99,9,1,-44,99,9,1,-44,99};
 
-		int min = arr[0];
+		int min = Integer.MIN_VALUE;
 
 		for(int i=0;i<arr.length;i++){
 		
